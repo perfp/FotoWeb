@@ -1,20 +1,14 @@
-﻿using FubuMVC.Core.View;
+﻿using Spark.Web.FubuMVC.ViewCreation;
 
-namespace FotoWeb
+namespace FotoWeb.Home
 {
     public class HomeViewModel
     {
     }
 
-    public class HomeInputModel
-    {
-        
-    }
-    public class  HomeView : FubuPage<HomeViewModel>{}
-
     public class HomeController
     {
-        public HomeViewModel Home(HomeInputModel inputModel)
+        public HomeViewModel Home()
         {
             return new HomeViewModel();
         }

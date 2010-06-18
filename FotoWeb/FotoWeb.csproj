@@ -93,11 +93,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <None Include="Views\Shared\Application.spark" />
+    <None Include="Views\Home\HomeView.spark">
+      <SubType>ASPXCodeBehind</SubType>
+    </None>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Home.cs">
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
