@@ -1,0 +1,13 @@
+﻿<viewdata model="FotoWeb.Home.HomeViewModel" />
+
+<content name="title">Home</content>
+<content name="header">
+  
+</content>
+
+Hello, World
+
+<content name="footer">
+  
+</content>
+
