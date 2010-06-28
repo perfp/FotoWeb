@@ -92,9 +92,36 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\charitytrust\images\btn_click_here.gif" />
+    <Content Include="Content\charitytrust\images\btn_search.gif" />
+    <Content Include="Content\charitytrust\images\bullet_letter.gif" />
+    <Content Include="Content\charitytrust\images\bullet_plus.gif" />
+    <Content Include="Content\charitytrust\images\footer_bg.gif" />
+    <Content Include="Content\charitytrust\images\gal_1.jpg" />
+    <Content Include="Content\charitytrust\images\gal_2.jpg" />
+    <Content Include="Content\charitytrust\images\gal_3.jpg" />
+    <Content Include="Content\charitytrust\images\header_bg.jpg" />
+    <Content Include="Content\charitytrust\images\h_donations_for_us.gif" />
+    <Content Include="Content\charitytrust\images\h_gallery.gif" />
+    <Content Include="Content\charitytrust\images\h_needs.gif" />
+    <Content Include="Content\charitytrust\images\h_welcome_to_our_site.gif" />
+    <Content Include="Content\charitytrust\images\logo.jpg" />
+    <Content Include="Content\charitytrust\images\m1.jpg" />
+    <Content Include="Content\charitytrust\images\m2.jpg" />
+    <Content Include="Content\charitytrust\images\m3.jpg" />
+    <Content Include="Content\charitytrust\images\m4.jpg" />
+    <Content Include="Content\charitytrust\images\m5.jpg" />
+    <Content Include="Content\charitytrust\images\m6.jpg" />
+    <Content Include="Content\charitytrust\images\m7.jpg" />
+    <Content Include="Content\charitytrust\images\m8.jpg" />
+    <Content Include="Content\charitytrust\images\pic_1.jpg" />
+    <Content Include="Content\charitytrust\images\pic_2.jpg" />
+    <Content Include="Content\charitytrust\images\pic_3.jpg" />
+    <Content Include="Content\charitytrust\style.css" />
     <Content Include="Global.asax" />
+    <None Include="Content\charitytrust\charitytrust.psd" />
     <None Include="Views\Shared\Application.spark" />
-    <None Include="Views\Home\HomeView.spark">
+    <None Include="Views\Home\Home.spark">
       <SubType>ASPXCodeBehind</SubType>
     </None>
     <Content Include="Web.config" />

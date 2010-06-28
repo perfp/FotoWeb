@@ -1,20 +1,46 @@
-﻿<html>
-  <head>
-    <title><use content="title">Default Title</use></title>
-  </head>
-  <body>
-    <div id="header">
-      <use content="header">
-        <div>no header by default</div>
-      </use>
-    </div>
-    <div id="main">
-      <use content="view"/>
-    </div>
-    <div id="footer">
-      <use content="footer">
-        <div>no footer by default</div>
-      </use>
-    </div>
-  </body>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title><use content="title"/></title>
+	<link rel="stylesheet" href="/Content/charitytrust/style.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h1><img src="/Content/charitytrust/images/logo.jpg" width="172" height="45" alt="Charity Trust"></h1>
+			<div id="nav">
+				
+				<a href="#"><img src="/Content/charitytrust/images/m1.jpg" width="66" height="41" alt="M1"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m2.jpg" width="87" height="41" alt="M2"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m3.jpg" width="83" height="41" alt="M3"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m4.jpg" width="72" height="41" alt="M4"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m5.jpg" width="84" height="41" alt="M5"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m6.jpg" width="64" height="41" alt="M6"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m7.jpg" width="89" height="41" alt="M7"></a>
+				<a href="#"><img src="/Content/charitytrust/images/m8.jpg" width="89" height="41" alt="M8"></a>
+			</div>
+		</div>
+		<div id="headline">
+			
+		</div>
+		<div id="body">
+			<div id="body-left">
+				<use content="view" />
+			</div>
+			<div id="body-right">
+				
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="footer">
+		<use content="footer" />
+		<p>&copy; 2006 all rights reserved.</p>
+	</div>
+</body>
 </html>

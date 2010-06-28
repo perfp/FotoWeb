@@ -5,7 +5,11 @@
   
 </content>
 
-Hello, World
+<form method="post" action="/home/upload">
+  Upload image:
+  <input type="file" id="imageuploader"/>
+  <input type="submit" id="submit"
+</form>
 
 <content name="footer">
   
