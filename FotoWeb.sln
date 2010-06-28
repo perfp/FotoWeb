@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoWeb", "FotoWeb\FotoWeb.csproj", "{B1709FBF-8B2F-44A5-82FB-2C517E4A2449}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotoWeb.Stories", "FotoWeb.Stories\FotoWeb.Stories.csproj", "{A202C2C2-6631-4297-A828-4FD047F4011D}"
